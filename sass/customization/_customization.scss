@@ -1,0 +1,53 @@
+/**
+ * Custom colors
+ */
+
+// body class added when light text is selected as customization
+.light-text {
+	
+	color: $color__text-main-light;
+	
+	a:hover,
+	a:active,
+	a:focus {
+		color: $color__text-main-light;
+	}
+	
+	.slide .vertically-centered:after {
+		background: $color__text-main-light;
+	}
+	
+	blockquote,
+	pre {
+		color: $color__text-main;
+	}
+	
+	.site-footer {
+		color: $color__background-screen;
+	}
+}
+
+/*
+ * Custom background adjustments
+ */
+.site-header,
+.site-footer {
+	
+	.custom-background &,
+	.background-gradient & {
+		background: none;
+	}
+}
+
+.background-overlay {
+	display: none;
+}
+
+.custom-background .background-overlay {
+	display: block;
+	height: 100%;
+	left: 0;
+	position: fixed;
+	top: 0;
+	width: 100%;
+}
