@@ -38,7 +38,7 @@ function wordpresent_starter_content() {
 						'<ul>',
 						'<li>' . _x( 'Father &amp; husband', 'Theme starter content', 'wordpresent' ) . '</li>',
 						'<li>' . _x( 'Frontend developer', 'Theme starter content', 'wordpresent' ) . '</li>',
-						'<li>' . _x( 'WordPress fan &amp; JavaScript junkie', 'Theme starter content', 'wordpresent' ) . '</li>',
+						'<li>' . _x( 'WordPress &amp; JavaScript fan', 'Theme starter content', 'wordpresent' ) . '</li>',
 						'<li>' . _x( 'Guitar player &amp; music lover', 'Theme starter content', 'wordpresent' ) . '</li>',
 						'</ul>'
 					) ),
@@ -54,7 +54,7 @@ function wordpresent_starter_content() {
 					'text' => join( '', array(
 						'<ul>',
 						'<li>' . _x( '<strong>Site owner/user</strong>: preview changes (UX), controlled creative freedom, uniqueness, ...', 'Theme starter content', 'wordpresent' ) . '</li>',
-						'<li>' . _x( '<strong>Designer/Developer</strong>: standard implementation, additional value, a selling point or premium option: people like (the idea of) having control/options', 'Theme starter content', 'wordpresent' ) . '</li>',
+						'<li>' . _x( '<strong>Designer/Developer</strong>: standard implementation, additional value, a selling point or premium option: (the idea of) having control/options', 'Theme starter content', 'wordpresent' ) . '</li>',
 						'</ul>'
 					) ),
 				) ),
