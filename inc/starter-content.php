@@ -65,7 +65,7 @@ function wordpresent_starter_content() {
 						'<li>' . _x( 'Decisions, not Options', 'Theme starter content', 'wordpresent' ) . '</li>',
 						'<li>' . _x( '(It should function) Out of the Box', 'Theme starter content', 'wordpresent' ) . '</li>',
 						'<li>' . _x( 'Striving for Simplicity', 'Theme starter content', 'wordpresent' ) . '</li>',
-						'</ul',
+						'</ul>',
 					) ),
 				) ),
 				'slide-5' => array( 'text', array(
@@ -75,7 +75,7 @@ function wordpresent_starter_content() {
 						'<li>' . _x( 'Change the widget title/content or add your own widgets to create your own presentation', 'Theme starter content', 'wordpresent' ) . '</li>',
 						'<li>' . _x( 'You can drag widgets in the Customizer control pane to rearrange them', 'Theme starter content', 'wordpresent' ) . '</li>',
 						'<li>' . _x( 'You can also use other widget types', 'Theme starter content', 'wordpresent' ) . '</li>',
-						'</ul',
+						'</ul>',
 					) ),
 				) ),
 				'slide-6' => array( 'text', array(
@@ -83,7 +83,7 @@ function wordpresent_starter_content() {
 					'text' => join( '', array(
 						'<ul>',
 						'<li>' . _x( 'Cheers, Csaba!', 'Theme starter content', 'wordpresent' ) . '</li>',
-						'</ul',
+						'</ul>',
 					) ),
 				) ),
 			),
