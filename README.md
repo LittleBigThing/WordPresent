@@ -1,12 +1,13 @@
+A WordPress presentation theme called WordPresent
+===
 
-
-=== A WordPress presentation theme called WordPresent ===
-
-== Description ==
+Description
+==
 
 This theme enables making a presentation in WordPress using the Customizer.
 
-== Getting started ==
+Getting started
+==
 
 Start by uploading it to your WordPress (WP) site as usually with WP themes:
 
