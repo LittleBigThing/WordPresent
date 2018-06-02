@@ -85,8 +85,8 @@ function wordpresent_background_gradient() {
 		return;
 	}
 	
-	$background_color = '#' . get_theme_mod( 'background_color', 'ffffff' );
-	$background_gradient_color = get_theme_mod( 'background_gradient_color' );
+	$background_color = '#' . esc_attr( get_theme_mod( 'background_color', 'ffffff' ) );
+	$background_gradient_color = esc_attr( get_theme_mod( 'background_gradient_color' ) );
 	
 	$css = "
 		body.background-gradient {
